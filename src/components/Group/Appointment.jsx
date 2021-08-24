@@ -2,23 +2,25 @@ import React from "react";
 import { View } from "react-native";
 import styled from "styled-components/native";
 import GrayText from "../GrayText/GrayText";
+import Badge from "./Badge";
 
-export const Appointment = ({ title, data, navigation }) => {
+export const Appointment = ({ item, navigation }) => {
+  const { title, data } = item
   return (
     <Group>
       <GroupTitle>{title}</GroupTitle>
       {data.map((item, index) => (
-        <GroupItem key={index} onPress={() => navigation.navigate("Patient")}>
+        <GroupItem key={index} onPress={() => navigation.navigate("Patient", {item})}>
           <Avatar
             source={{
               uri: item.user.avatar,
             }}
           />
           <View style={{ flex: 1 }}>
-            <FullName>{item.user.fullName}</FullName>
+            <FullName>{item.user.fullname}</FullName>
             <GrayText>{item.diagnosis}</GrayText>
           </View>
-          <GroupDate active={item.active}>{item.time}</GroupDate>
+          <Badge active={item.active}>{item.time}</Badge>
         </GroupItem>
       ))}
     </Group>
@@ -59,16 +61,4 @@ const Avatar = styled.Image`
 const FullName = styled.Text`
   font-weight: bold;
   font-size: 16px;
-`;
-
-const GroupDate = styled.Text`
-  background-color: ${(props) => (props.active ? "#2A86FF;" : "#e9f5ff")};
-  color: ${(props) => (props.active ? "#ffffff;" : "#4294ff")};
-  border-radius: 18px;
-  font-weight: 700;
-  font-size: 14px;
-  width: 70px;
-  height: 32px;
-  text-align: center;
-  line-height: 30px;
 `;

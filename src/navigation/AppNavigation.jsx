@@ -9,7 +9,7 @@ export const AppNavigation = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Patient"
+        initialRouteName="Home"
         screenOptions={{
           headerStyle: {
             backgroundColor: '#eee',

@@ -1,0 +1,112 @@
+{
+  "users": [
+   {
+     "_id": 1,
+     "avatar": "https://source.unsplash.com/100x100/?random/face",
+     "fullname": "Horn Knowles",
+     "phone": "+38(830) 572-28-49"
+   },
+   {
+     "_id": 2,
+     "avatar": "https://source.unsplash.com/100x100/?random/face",
+     "fullname": "Ewing Small",
+     "phone": "+38(871) 533-31-27"
+   },
+   {
+     "_id": 3,
+     "avatar": "https://source.unsplash.com/100x100/?random/face",
+     "fullname": "Jodie Mcdowell",
+     "phone": "+38(947) 582-21-38"
+   },
+   {
+     "_id": 4,
+     "avatar": "https://source.unsplash.com/100x100/?random/face",
+     "fullname": "Patel Macias",
+     "phone": "+38(941) 572-23-26"
+   },
+   {
+     "_id": 5,
+     "avatar": "https://source.unsplash.com/100x100/?random/face",
+     "fullname": "Buckley Landry",
+     "phone": "+38(806) 486-29-71"
+   },
+   {
+     "_id": 6,
+     "avatar": "https://source.unsplash.com/100x100/?random/face",
+     "fullname": "Hale Finley",
+     "phone": "+38(837) 433-21-24"
+   },
+   {
+     "_id": 7,
+     "avatar": "https://source.unsplash.com/100x100/?random/face",
+     "fullname": "Lynnette Martin",
+     "phone": "+38(910) 409-34-76"
+   }
+  ],
+  "appointments": [
+   {
+    "user_id": 1,
+    "is_active": true,
+    "balance": 1178,
+    "diagnosis": "problem",
+    "time": "12:37",
+    "date": "Sat Dec 25 2021 15:04:07 GMT+0200 (UTC)"
+  },
+  {
+    "user_id": 2,
+    "is_active": true,
+    "balance": 4628,
+    "diagnosis": "caries",
+    "time": "20:27",
+    "date": "Thu Dec 09 2021 23:10:19 GMT+0200 (UTC)"
+  },
+  {
+    "user_id": 3,
+    "is_active": false,
+    "balance": 1991,
+    "diagnosis": "problem",
+    "time": "14:41",
+    "date": "Thu Dec 23 2021 20:21:08 GMT+0200 (UTC)"
+  },
+  {
+    "user_id": 4,
+    "is_active": false,
+    "balance": 4076,
+    "diagnosis": "pulpit",
+    "time": "15:29",
+    "date": "Fri Dec 24 2021 05:58:44 GMT+0200 (UTC)"
+  },
+  {
+    "user_id": 5,
+    "is_active": true,
+    "balance": 4259,
+    "diagnosis": "problem",
+    "time": "11:40",
+    "date": "Fri Nov 17 2021 04:22:30 GMT+0200 (UTC)"
+  },
+  {
+    "user_id": 6,
+    "is_active": false,
+    "balance": 5437,
+    "diagnosis": "problem",
+    "time": "10:34",
+    "date": "Mon Dec 27 2021 01:13:03 GMT+0200 (UTC)"
+  },
+  {
+    "user_id": 7,
+    "is_active": true,
+    "balance": 2217,
+    "diagnosis": "caries",
+    "time": "17:50",
+    "date": "Fri Dec 31 2021 12:06:26 GMT+0200 (UTC)"
+  },
+  {
+    "user_id": 2,
+    "is_active": false,
+    "balance": 2243,
+    "diagnosis": "problem",
+    "time": "15:14",
+    "date": "Mon Nov 29 2021 23:47:33 GMT+0200 (UTC)"
+  }
+  ]
+}
