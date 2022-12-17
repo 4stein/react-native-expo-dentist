@@ -1,5 +1,5 @@
 # React-Native Expo dentist app
-Expo, React-Native, styled-components
+Expo, React-Native, Styled-Components
 
 ## Available scripts to start application
 
